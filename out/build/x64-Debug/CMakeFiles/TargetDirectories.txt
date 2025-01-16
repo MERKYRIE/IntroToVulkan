@@ -1,0 +1,9 @@
+D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/graphics-SDL3.dir
+D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir
+D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3_test.dir
+D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL_uclibc.dir
+D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/uninstall.dir
+D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/edit_cache.dir
+D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/rebuild_cache.dir

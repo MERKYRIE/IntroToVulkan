@@ -1,0 +1,1265 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/VisualStudio/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/3.28.3-msvc11/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/VisualStudio/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/3.28.3-msvc11/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yaog95"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yaog95"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yaog95'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_95936
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_95936.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_95936.dir\\ /FS -c C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_95936.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_95936.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_95936.exe /implib:cmTC_95936.lib /pdb:cmTC_95936.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-d3hj1d"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-d3hj1d"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-d3hj1d'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_a786d
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_a786d.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_a786d.dir\\ /FS -c C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_a786d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a786d.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_a786d.exe /implib:cmTC_a786d.lib /pdb:cmTC_a786d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "out/build/x64-Debug/_deps/sdl3-src/cmake/sdlcpu.cmake:93 (try_compile)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:54 (SDL_DetectTargetCPUArchitectures)"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "SDL_CPU_CHECK_ALL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_c731f
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_c731f.dir\\SDL_detect_arch.c.obj /FdCMakeFiles\\cmTC_c731f.dir\\cmTC_c731f.pdb /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_c731f.lib CMakeFiles\\cmTC_c731f.dir\\SDL_detect_arch.c.obj  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is Clang using "--version" did not match "(clang version)":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is ARMClang using "--version" did not match "armclang":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is OrangeC using "--version" did not match "occ \\(OrangeC\\) Version":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is HP using "-V" did not match "HP C":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : -V
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is Intel using "--version" did not match "(ICC)":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is SunPro using "-V" did not match "Sun C":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : -V
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is XL using "-qversion" did not match "XL C":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : -qversion
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1131 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is MSVC using "-?" matched "Microsoft":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+              ML64 [ /options ] filelist [ /link linkoptions ]
+      
+      /Bl<linker> Use alternate linker          /Sf Generate first pass listing
+      /c Assemble without linking               /Sl<width> Set line width
+      /Cp Preserve case of user identifiers     /Sn Suppress symbol-table listing
+      /Cx Preserve case in publics, externs     /Sp<length> Set page length
+      /D<name>[=text] Define text macro         /Ss<string> Set subtitle
+      /EP Output preprocessed listing to stdout /St<string> Set title
+      /F <hex> Set stack size (bytes)           /Sx List false conditionals
+      /Fe<file> Name executable                 /Ta<file> Assemble non-.ASM file
+      /Fl[file] Generate listing                /w Same as /W0 /WX
+      /Fm[file] Generate map                    /WX Treat warnings as errors
+      /Fo<file> Name object file                /W<number> Set warning level
+      /Fr[file] Generate limited browser info   /X Ignore INCLUDE environment path
+      /FR[file] Generate full browser info      /Zd Add line number debug info
+      /I<name> Add include path                 /Zf Make all symbols public
+      /link <linker options and libraries>      /Zi Add symbolic debug info
+      /nologo Suppress copyright message        /Zp[n] Set structure alignment
+      /Sa Maximize source listing               /Zs Perform syntax check only
+      /ZH:MD5 Use MD5 for checksum in debug info
+      /ZH:SHA_256 Use SHA256 for checksum in debug info (default)
+      /Gy[-] separate functions for linker      /quiet Suppress 'Assembling' message
+      /errorReport:<option> Deprecated. Report internal assembler errors to Microsoft
+          none - do not send report
+          prompt - prompt to immediately send report
+          queue - at next admin logon, prompt to send report
+          send - send report automatically
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:605 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_MMX"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c759ug"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c759ug"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_MMX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c759ug'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_11da9
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_MMX  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_11da9.dir\\src.c.obj /FdCMakeFiles\\cmTC_11da9.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-c759ug\\src.c"
+        FAILED: CMakeFiles/cmTC_11da9.dir/src.c.obj 
+        C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_MMX  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_11da9.dir\\src.c.obj /FdCMakeFiles\\cmTC_11da9.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-c759ug\\src.c"
+        D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-c759ug\\src.c(5): error C2440: '=': cannot convert from 'int' to '__m64'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:626 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-uphw9r"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-uphw9r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-uphw9r'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_6de7f
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_6de7f.dir\\src.c.obj /FdCMakeFiles\\cmTC_6de7f.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-uphw9r\\src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_6de7f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6de7f.dir\\src.c.obj  /out:cmTC_6de7f.exe /implib:cmTC_6de7f.lib /pdb:cmTC_6de7f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:647 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE2"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bkg26y"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bkg26y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bkg26y'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_8d47c
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE2  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_8d47c.dir\\src.c.obj /FdCMakeFiles\\cmTC_8d47c.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bkg26y\\src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_8d47c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8d47c.dir\\src.c.obj  /out:cmTC_8d47c.exe /implib:cmTC_8d47c.lib /pdb:cmTC_8d47c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:668 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE3"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fut1nu"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fut1nu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE3"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fut1nu'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_a3c06
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE3  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_a3c06.dir\\src.c.obj /FdCMakeFiles\\cmTC_a3c06.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-fut1nu\\src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_a3c06.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a3c06.dir\\src.c.obj  /out:cmTC_a3c06.exe /implib:cmTC_a3c06.lib /pdb:cmTC_a3c06.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:689 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_1"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qfgvba"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qfgvba"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_1"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qfgvba'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_f3e37
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE4_1  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_f3e37.dir\\src.c.obj /FdCMakeFiles\\cmTC_f3e37.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-qfgvba\\src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_f3e37.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f3e37.dir\\src.c.obj  /out:cmTC_f3e37.exe /implib:cmTC_f3e37.lib /pdb:cmTC_f3e37.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:710 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_2"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dnvwl2"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dnvwl2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-dnvwl2'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_94063
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE4_2  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_94063.dir\\src.c.obj /FdCMakeFiles\\cmTC_94063.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-dnvwl2\\src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_94063.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_94063.dir\\src.c.obj  /out:cmTC_94063.exe /implib:cmTC_94063.lib /pdb:cmTC_94063.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:733 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kp1nnq"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kp1nnq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kp1nnq'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_e943e
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_AVX  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_e943e.dir\\src.c.obj /FdCMakeFiles\\cmTC_e943e.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-kp1nnq\\src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_e943e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e943e.dir\\src.c.obj  /out:cmTC_e943e.exe /implib:cmTC_e943e.lib /pdb:cmTC_e943e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:754 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX2"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-b927jm"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-b927jm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-b927jm'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_bb623
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_AVX2  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_bb623.dir\\src.c.obj /FdCMakeFiles\\cmTC_bb623.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-b927jm\\src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_bb623.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_bb623.dir\\src.c.obj  /out:cmTC_bb623.exe /implib:cmTC_bb623.lib /pdb:cmTC_bb623.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/VisualStudio/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/3.28.3-msvc11/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/VisualStudio/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/3.28.3-msvc11/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gc7nt6"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gc7nt6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gc7nt6'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_6e52f
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_6e52f.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_6e52f.dir\\ /FS -c C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_6e52f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6e52f.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_6e52f.exe /implib:cmTC_6e52f.lib /pdb:cmTC_6e52f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-b1gjq0"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-b1gjq0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-b1gjq0'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_82384
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_82384.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_82384.dir\\ /FS -c C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_82384.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_82384.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_82384.exe /implib:cmTC_82384.lib /pdb:cmTC_82384.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "out/build/x64-Debug/_deps/sdl3-src/cmake/sdlcpu.cmake:93 (try_compile)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:54 (SDL_DetectTargetCPUArchitectures)"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "SDL_CPU_CHECK_ALL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_8d757
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_8d757.dir\\SDL_detect_arch.c.obj /FdCMakeFiles\\cmTC_8d757.dir\\cmTC_8d757.pdb /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_8d757.lib CMakeFiles\\cmTC_8d757.dir\\SDL_detect_arch.c.obj  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is Clang using "--version" did not match "(clang version)":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is ARMClang using "--version" did not match "armclang":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is OrangeC using "--version" did not match "occ \\(OrangeC\\) Version":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is HP using "-V" did not match "HP C":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : -V
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is Intel using "--version" did not match "(ICC)":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : --version
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is SunPro using "-V" did not match "Sun C":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : -V
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1144 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is XL using "-qversion" did not match "XL C":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      MASM : warning A4018:invalid command-line option : -qversion
+      MASM : fatal error A1017:missing source filename
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1131 (message)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake:17 (include)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:467 (enable_language)"
+    message: |
+      Checking whether the ASM_MASM compiler is MSVC using "-?" matched "Microsoft":
+      Microsoft (R) Macro Assembler (x64) Version 14.40.33812.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+              ML64 [ /options ] filelist [ /link linkoptions ]
+      
+      /Bl<linker> Use alternate linker          /Sf Generate first pass listing
+      /c Assemble without linking               /Sl<width> Set line width
+      /Cp Preserve case of user identifiers     /Sn Suppress symbol-table listing
+      /Cx Preserve case in publics, externs     /Sp<length> Set page length
+      /D<name>[=text] Define text macro         /Ss<string> Set subtitle
+      /EP Output preprocessed listing to stdout /St<string> Set title
+      /F <hex> Set stack size (bytes)           /Sx List false conditionals
+      /Fe<file> Name executable                 /Ta<file> Assemble non-.ASM file
+      /Fl[file] Generate listing                /w Same as /W0 /WX
+      /Fm[file] Generate map                    /WX Treat warnings as errors
+      /Fo<file> Name object file                /W<number> Set warning level
+      /Fr[file] Generate limited browser info   /X Ignore INCLUDE environment path
+      /FR[file] Generate full browser info      /Zd Add line number debug info
+      /I<name> Add include path                 /Zf Make all symbols public
+      /link <linker options and libraries>      /Zi Add symbolic debug info
+      /nologo Suppress copyright message        /Zp[n] Set structure alignment
+      /Sa Maximize source listing               /Zs Perform syntax check only
+      /ZH:MD5 Use MD5 for checksum in debug info
+      /ZH:SHA_256 Use SHA256 for checksum in debug info (default)
+      /Gy[-] separate functions for linker      /quiet Suppress 'Assembling' message
+      /errorReport:<option> Deprecated. Report internal assembler errors to Microsoft
+          none - do not send report
+          prompt - prompt to immediately send report
+          queue - at next admin logon, prompt to send report
+          send - send report automatically
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:605 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_MMX"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-u2zci1"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-u2zci1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_MMX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-u2zci1'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_21ea1
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_MMX  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_21ea1.dir\\src.c.obj /FdCMakeFiles\\cmTC_21ea1.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-u2zci1\\src.c"
+        FAILED: CMakeFiles/cmTC_21ea1.dir/src.c.obj 
+        C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_MMX  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_21ea1.dir\\src.c.obj /FdCMakeFiles\\cmTC_21ea1.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-u2zci1\\src.c"
+        D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-u2zci1\\src.c(5): error C2440: '=': cannot convert from 'int' to '__m64'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:626 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6t7jw9"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6t7jw9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6t7jw9'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_5e7ff
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_5e7ff.dir\\src.c.obj /FdCMakeFiles\\cmTC_5e7ff.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-6t7jw9\\src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_5e7ff.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5e7ff.dir\\src.c.obj  /out:cmTC_5e7ff.exe /implib:cmTC_5e7ff.lib /pdb:cmTC_5e7ff.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:647 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE2"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-eoiugp"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-eoiugp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-eoiugp'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_7c09d
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE2  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_7c09d.dir\\src.c.obj /FdCMakeFiles\\cmTC_7c09d.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-eoiugp\\src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_7c09d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7c09d.dir\\src.c.obj  /out:cmTC_7c09d.exe /implib:cmTC_7c09d.lib /pdb:cmTC_7c09d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:668 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE3"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bjzzfh"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bjzzfh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE3"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bjzzfh'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_c832e
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE3  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_c832e.dir\\src.c.obj /FdCMakeFiles\\cmTC_c832e.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bjzzfh\\src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_c832e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c832e.dir\\src.c.obj  /out:cmTC_c832e.exe /implib:cmTC_c832e.lib /pdb:cmTC_c832e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:689 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_1"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-riib9n"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-riib9n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_1"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-riib9n'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_e65d4
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE4_1  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_e65d4.dir\\src.c.obj /FdCMakeFiles\\cmTC_e65d4.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-riib9n\\src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_e65d4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e65d4.dir\\src.c.obj  /out:cmTC_e65d4.exe /implib:cmTC_e65d4.lib /pdb:cmTC_e65d4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:710 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_2"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-690kvb"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-690kvb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-690kvb'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_a43f4
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE4_2  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_a43f4.dir\\src.c.obj /FdCMakeFiles\\cmTC_a43f4.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-690kvb\\src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_a43f4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a43f4.dir\\src.c.obj  /out:cmTC_a43f4.exe /implib:cmTC_a43f4.lib /pdb:cmTC_a43f4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:733 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-t5hml8"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-t5hml8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-t5hml8'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_e6d16
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_AVX  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_e6d16.dir\\src.c.obj /FdCMakeFiles\\cmTC_e6d16.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-t5hml8\\src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_e6d16.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e6d16.dir\\src.c.obj  /out:cmTC_e6d16.exe /implib:cmTC_e6d16.lib /pdb:cmTC_e6d16.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:754 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX2"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-uo1u4p"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-uo1u4p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-uo1u4p'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_a4e6e
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_AVX2  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_a4e6e.dir\\src.c.obj /FdCMakeFiles\\cmTC_a4e6e.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-uo1u4p\\src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_a4e6e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a4e6e.dir\\src.c.obj  /out:cmTC_a4e6e.exe /implib:cmTC_a4e6e.lib /pdb:cmTC_a4e6e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:775 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX512F"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-f143dp"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-f143dp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX512F"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-f143dp'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_bec70
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_AVX512F  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_bec70.dir\\src.c.obj /FdCMakeFiles\\cmTC_bec70.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-f143dp\\src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_bec70.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_bec70.dir\\src.c.obj  /out:cmTC_bec70.exe /implib:cmTC_bec70.lib /pdb:cmTC_bec70.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:1901 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_GAMEINPUT_H"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-e2k140"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-e2k140"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "HAVE_GAMEINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-e2k140'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_125ab
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_GAMEINPUT_H  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_125ab.dir\\src.c.obj /FdCMakeFiles\\cmTC_125ab.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-e2k140\\src.c"
+        FAILED: CMakeFiles/cmTC_125ab.dir/src.c.obj 
+        C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_GAMEINPUT_H  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_125ab.dir\\src.c.obj /FdCMakeFiles\\cmTC_125ab.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-e2k140\\src.c"
+        D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-e2k140\\src.c(4): fatal error C1083: Cannot open include file: 'gameinput.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:1907 (check_include_file)"
+    checks:
+      - "Looking for dxgi1_6.h"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gml6yr"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gml6yr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "HAVE_DXGI1_6_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-gml6yr'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_1f06c
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_1f06c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_1f06c.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gml6yr\\CheckIncludeFile.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_1f06c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1f06c.dir\\CheckIncludeFile.c.obj  /out:cmTC_1f06c.exe /implib:cmTC_1f06c.lib /pdb:cmTC_1f06c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:1914 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_MFAPI_H"
+    directories:
+      source: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-vx8vzp"
+      binary: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-vx8vzp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "HAVE_MFAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-vx8vzp'
+        
+        Run Build Command(s): c:\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_081f1
+        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_MFAPI_H  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_081f1.dir\\src.c.obj /FdCMakeFiles\\cmTC_081f1.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroToVulkan\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-vx8vzp\\src.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_081f1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_081f1.dir\\src.c.obj  /out:cmTC_081f1.exe /implib:cmTC_081f1.lib /pdb:cmTC_081f1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
