@@ -5,12 +5,12 @@
 #include"Renderer.hpp"
 #include"Scene08TextureQuadMoving.hpp"
 
-void Scene08TextureQuadMoving::Load(Renderer& renderer) {
+void Scene08TextureQuadMoving::Load(Renderer& ARenderer) {
     basePath = SDL_GetBasePath();
-    vertexShader = renderer.LoadShader(basePath, "TexturedQuadWithMatrix.vert", 0, 1, 0, 0);
-    fragmentShader = renderer.LoadShader(basePath, "TexturedQuadWithMultiplyColor.frag", 1, 1, 0, 0);
+    vertexShader = ARenderer.LoadShader(basePath, "TexturedQuadWithMatrix.vert", 0, 1, 0, 0);
+    fragmentShader = ARenderer.LoadShader(basePath, "TexturedQuadWithMultiplyColor.frag", 1, 1, 0, 0);
 
-    SDL_Surface* imageData = renderer.LoadBMPImage(basePath, "ravioli.bmp", 4);
+    SDL_Surface* imageData = ARenderer.LoadBMPImage(basePath, "ravioli.bmp", 4);
     if (imageData == nullptr) {
         SDL_Log("Could not load image data!");
     }
@@ -42,10 +42,47 @@ void Scene08TextureQuadMoving::Load(Renderer& renderer) {
             .num_vertex_attributes = 2,
         },
         .primitive_type = SDL_GPU_PRIMITIVETYPE_TRIANGLELIST,
+        .depth_stencil_state
+        {
+            .compare_op{SDL_GPU_COMPAREOP_LESS}
+            ,
+            .back_stencil_state
+            {
+                .fail_op{SDL_GPU_STENCILOP_INVALID}
+                ,
+                .pass_op{SDL_GPU_STENCILOP_INVALID}
+                ,
+                .depth_fail_op{SDL_GPU_STENCILOP_INVALID}
+                ,
+                .compare_op{SDL_GPU_COMPAREOP_INVALID}
+            }
+            ,
+            .front_stencil_state
+            {
+                .fail_op{SDL_GPU_STENCILOP_INVALID}
+                ,
+                .pass_op{SDL_GPU_STENCILOP_INVALID}
+                ,
+                .depth_fail_op{SDL_GPU_STENCILOP_INVALID}
+                ,
+                .compare_op{SDL_GPU_COMPAREOP_INVALID}
+            }
+            ,
+            .compare_mask{0B00000000}
+            ,
+            .write_mask{0B00000000}
+            ,
+            .enable_depth_test{true}
+            ,
+            .enable_depth_write{false}
+            ,
+            .enable_stencil_test{false}
+        }
+        ,
         .target_info = {
             .color_target_descriptions = new SDL_GPUColorTargetDescription[1] {{
-                .format = SDL_GetGPUSwapchainTextureFormat(renderer.device,
-        renderer.renderWindow),
+                .format = SDL_GetGPUSwapchainTextureFormat(ARenderer.device,
+        ARenderer.renderWindow),
             .blend_state = {
                 .src_color_blendfactor = SDL_GPU_BLENDFACTOR_SRC_ALPHA,
                 .dst_color_blendfactor = SDL_GPU_BLENDFACTOR_ONE_MINUS_SRC_ALPHA,
@@ -58,14 +95,61 @@ void Scene08TextureQuadMoving::Load(Renderer& renderer) {
         }},
         .num_color_targets = 1,
         },
-    };
-    pipelineCreateInfo.rasterizer_state.cull_mode = SDL_GPU_CULLMODE_BACK;
-    pipelineCreateInfo.rasterizer_state.front_face = SDL_GPU_FRONTFACE_CLOCKWISE;
-    pipeline = renderer.CreateGPUGraphicsPipeline(pipelineCreateInfo);
+    };    
+    pipeline = ARenderer.CreateGPUGraphicsPipeline(pipelineCreateInfo);
 
     // Clean up shader resources
-    renderer.ReleaseShader(vertexShader);
-    renderer.ReleaseShader(fragmentShader);
+    ARenderer.ReleaseShader(vertexShader);
+    ARenderer.ReleaseShader(fragmentShader);
+
+    SDL_Surface* LSurface = SDL_CreateSurface(540 , 480 , SDL_PIXELFORMAT_RGBA32);
+    if(!LSurface)
+    {
+        SDL_Log("Failed to load the surface!");
+    }        
+    SDL_GPUSamplerCreateInfo LSamplerInformation
+    {
+        .min_filter{SDL_GPU_FILTER_NEAREST}
+        ,
+        .mag_filter{SDL_GPU_FILTER_NEAREST}
+        ,
+        .mipmap_mode{SDL_GPU_SAMPLERMIPMAPMODE_NEAREST}
+        ,
+        .address_mode_u{SDL_GPU_SAMPLERADDRESSMODE_CLAMP_TO_EDGE}
+        ,
+        .address_mode_v{SDL_GPU_SAMPLERADDRESSMODE_CLAMP_TO_EDGE}
+        ,
+        .address_mode_w{SDL_GPU_SAMPLERADDRESSMODE_CLAMP_TO_EDGE}
+    };
+    FSampler = ARenderer.CreateSampler(LSamplerInformation);
+    SDL_GPUTextureCreateInfo LTextureInformation
+    {
+        .type{SDL_GPU_TEXTURETYPE_2D}
+        ,
+        .format{SDL_GPU_TEXTUREFORMAT_D32_FLOAT}
+        ,
+        .usage{SDL_GPU_TEXTUREUSAGE_SAMPLER | SDL_GPU_TEXTUREUSAGE_DEPTH_STENCIL_TARGET}
+        ,
+        .width{static_cast<std::uint32_t>(LSurface->w)}
+        ,
+        .height{static_cast<std::uint32_t>(LSurface->h)}
+        ,
+        .layer_count_or_depth{1}
+        ,
+        .num_levels{1}
+    };
+    FTexture = ARenderer.CreateTexture(LTextureInformation);
+    SDL_GPUTransferBufferCreateInfo LTextureTransferInformation{.usage{SDL_GPU_TRANSFERBUFFERUSAGE_UPLOAD} , .size{static_cast<std::uint32_t>(LSurface->w * LSurface->h * 4)}};
+    SDL_GPUTransferBuffer * LTextureTransfer = ARenderer.CreateTransferBuffer(LTextureTransferInformation);
+    auto LTextureData{ARenderer.MapTransferBuffer(LTextureTransfer , false)};
+    std::memcpy(LTextureData , LSurface->pixels , LTextureTransferInformation.size);
+    ARenderer.UnmapTransferBuffer(LTextureTransfer);
+    ARenderer.BeginUploadToBuffer();
+    SDL_GPUTextureTransferInfo LTextureLocation{.transfer_buffer{LTextureTransfer} , .offset{0}};
+    SDL_GPUTextureRegion LTextureRegion{.texture{FTexture} , .w{static_cast<std::uint32_t>(LSurface->w)} , .h{static_cast<std::uint32_t>(LSurface->h)} , .d{1}};
+    ARenderer.UploadToTexture(LTextureLocation , LTextureRegion , false);
+    ARenderer.EndUploadToBuffer(LTextureTransfer);
+    ARenderer.ReleaseSurface(LSurface);
 }
 
 bool Scene08TextureQuadMoving::Update(float dt) {
@@ -75,12 +159,32 @@ bool Scene08TextureQuadMoving::Update(float dt) {
     return isRunning;
 }
 
-void Scene08TextureQuadMoving::Unload(Renderer& renderer) {
-    renderer.ReleaseGraphicsPipeline(pipeline);
+void Scene08TextureQuadMoving::Unload(Renderer& ARenderer) {
+    ARenderer.ReleaseTexture(FTexture);
+    ARenderer.ReleaseSampler(FSampler);
+    ARenderer.ReleaseGraphicsPipeline(pipeline);
 }
 
 void Scene08TextureQuadMoving::Draw(Renderer& ARenderer) {
-    ARenderer.Begin();
+    SDL_GPUDepthStencilTargetInfo LInformation
+    {
+        .texture{FTexture}
+        ,
+        .clear_depth{1.0F}
+        ,
+        .load_op{SDL_GPU_LOADOP_CLEAR}
+        ,
+        .store_op{SDL_GPU_STOREOP_STORE}
+        ,
+        .stencil_load_op{SDL_GPU_LOADOP_DONT_CARE}
+        ,
+        .stencil_store_op{SDL_GPU_STOREOP_DONT_CARE}
+        ,
+        .cycle{false}
+        ,
+        .clear_stencil{0}
+    };
+    ARenderer.Begin(&LInformation);
     ARenderer.BindGraphicsPipeline(pipeline);
     auto LBackward
     {
@@ -88,13 +192,13 @@ void Scene08TextureQuadMoving::Draw(Renderer& ARenderer) {
         (
             &ARenderer , "cube0.bmp"
             ,
-            -0.5F , -0.5F , -1.0F
+            -0.5F , -0.5F , -0.5F
             ,
-            -0.5F , +0.5F , -1.0F
+            -0.5F , +0.5F , -0.5F
             ,
-            +0.5F , +0.5F , -1.0F
+            +0.5F , +0.5F , -0.5F
             ,
-            +0.5F , -0.5F , -1.0F
+            +0.5F , -0.5F , -0.5F
         )
     };
     auto LLeft
@@ -103,16 +207,80 @@ void Scene08TextureQuadMoving::Draw(Renderer& ARenderer) {
         (
             &ARenderer , "cube1.bmp"
             ,
-            -0.5F , -0.5F , -2.0F
+            -0.5F , -0.5F , -1.5F
             ,
-            -0.5F , +0.5F , -2.0F
+            -0.5F , +0.5F , -1.5F
             ,
-            -0.5F , +0.5F , -1.0F
+            -0.5F , +0.5F , -0.5F
             ,
-            -0.5F , -0.5F , -1.0F
+            -0.5F , -0.5F , -0.5F
+        )
+    };
+    auto LForward
+    {
+        std::make_shared<NIntroToVulkan::SQuadrilateral>
+        (
+            &ARenderer , "cube2.bmp"
+            ,
+            -0.5F , -0.5F , -1.5F
+            ,
+            -0.5F , +0.5F , -1.5F
+            ,
+            +0.5F , +0.5F , -1.5F
+            ,
+            +0.5F , -0.5F , -1.5F
+        )
+    };
+    auto LRight
+    {
+        std::make_shared<NIntroToVulkan::SQuadrilateral>
+        (
+            &ARenderer , "cube3.bmp"
+            ,
+            +0.5F , -0.5F , -1.5F
+            ,
+            +0.5F , +0.5F , -1.5F
+            ,
+            +0.5F , +0.5F , -0.5F
+            ,
+            +0.5F , -0.5F , -0.5F
+        )
+    };
+    auto LDownward
+    {
+        std::make_shared<NIntroToVulkan::SQuadrilateral>
+        (
+            &ARenderer , "cube4.bmp"
+            ,
+            -0.5F , -0.5F , -0.5F
+            ,
+            -0.5F , -0.5F , -1.5F
+            ,
+            +0.5F , -0.5F , -1.5F
+            ,
+            +0.5F , -0.5F , -0.5F
+        )
+    };
+    auto LUpward
+    {
+        std::make_shared<NIntroToVulkan::SQuadrilateral>
+        (
+            &ARenderer , "cube5.bmp"
+            ,
+            -0.5F , +0.5F , -0.5F
+            ,
+            -0.5F , +0.5F , -1.5F
+            ,
+            +0.5F , +0.5F , -1.5F
+            ,
+            +0.5F , +0.5F , -0.5F
         )
     };
     LBackward->IRender(time);
     LLeft->IRender(time);
+    LForward->IRender(time);
+    LRight->IRender(time);
+    LDownward->IRender(time);
+    LUpward->IRender(time);
     ARenderer.End();
 }

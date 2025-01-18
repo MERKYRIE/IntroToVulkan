@@ -16,10 +16,10 @@ typedef struct FragMultiplyUniform
 
 class Scene08TextureQuadMoving : public Scene {
 public:
-    void Load(Renderer& renderer) override;
+    void Load(Renderer& ARenderer) override;
     bool Update(float dt) override;
     void Draw(Renderer& ARenderer) override;
-    void Unload(Renderer& renderer) override;
+    void Unload(Renderer& ARenderer) override;
 
 private:
     InputState inputState;
@@ -29,6 +29,9 @@ private:
     
     SDL_GPUGraphicsPipeline* pipeline {nullptr};
     float time {0};
+
+    public : SDL_GPUSampler * FSampler;
+    public : SDL_GPUTexture * FTexture;
 };
 
 #endif //SCENE08TEXTUREQUADMOVING_HPP

@@ -1,21 +1,21 @@
-# ninja log v5
-1	40	7578549401786949	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir	b1005af1d65d8391
-40	1961	7578549420993990	D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download	270803c80a3c2398
-1961	2352	7578549424906252	D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update	e30cace4fa794035
-2499	2535	7578549426732215	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build	5c10a1ed2831eb66
-2463	2499	7578549426382281	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure	4d848ad267cd978d
-1	40	7578549401786949	D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir	b1005af1d65d8391
-40	1961	7578549420993990	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download	270803c80a3c2398
-2420	2463	7578549426017948	D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch	5ae58fd265d14520
-2420	2463	7578549426017948	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch	5ae58fd265d14520
-1961	2352	7578549424906252	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update	e30cace4fa794035
-2463	2499	7578549426382281	D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure	4d848ad267cd978d
-2499	2535	7578549426732215	D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build	5c10a1ed2831eb66
-2535	2569	7578549427068169	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install	eb827a01415fce2a
-2535	2569	7578549427068169	D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install	eb827a01415fce2a
-2569	2604	7578549427423761	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test	95602bbc8887254a
-2569	2604	7578549427423761	D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test	95602bbc8887254a
-2604	2652	7578549427904028	CMakeFiles/sdl3-populate-complete	56a7baaa92c236cb
-2604	2652	7578549427904028	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-done	56a7baaa92c236cb
-2604	2652	7578549427904028	D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate-complete	56a7baaa92c236cb
-2604	2652	7578549427904028	D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-done	56a7baaa92c236cb
+# ninja log v6
+4	78	7589179979775247	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir	1a24537c537599f3
+4	78	7589179979775247	D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir	1a24537c537599f3
+79	2888	7589180007876019	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download	5e9ccb9f9a58a6f2
+79	2888	7589180007876019	D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download	5e9ccb9f9a58a6f2
+2888	2967	7589180008657803	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update	1814b4a364d1baf6
+2888	2967	7589180008657803	D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update	1814b4a364d1baf6
+2967	3043	7589180009423112	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch	fa36fb5bfa01558
+2967	3043	7589180009423112	D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch	fa36fb5bfa01558
+3043	3119	7589180010173257	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure	db66f585b55dc1bf
+3043	3119	7589180010173257	D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure	db66f585b55dc1bf
+3119	3190	7589180010890354	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build	6fc278f85381055c
+3119	3190	7589180010890354	D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build	6fc278f85381055c
+3190	3256	7589180011555794	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install	69aa90d0dd5757ac
+3190	3256	7589180011555794	D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install	69aa90d0dd5757ac
+3256	3327	7589180012252662	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test	4bb83920ce16e10d
+3256	3327	7589180012252662	D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test	4bb83920ce16e10d
+3327	3421	7589180013204525	CMakeFiles/sdl3-populate-complete	1c2962628b5f0648
+3327	3421	7589180013204525	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-done	1c2962628b5f0648
+3327	3421	7589180013204525	D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate-complete	1c2962628b5f0648
+3327	3421	7589180013204525	D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-done	1c2962628b5f0648

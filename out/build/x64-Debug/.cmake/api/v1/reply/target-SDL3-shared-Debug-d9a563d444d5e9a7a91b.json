@@ -492,7 +492,7 @@
 			{
 				"command" : 13,
 				"file" : 0,
-				"line" : 2072,
+				"line" : 2065,
 				"parent" : 0
 			},
 			{
@@ -504,7 +504,7 @@
 			{
 				"command" : 13,
 				"file" : 0,
-				"line" : 2083,
+				"line" : 2072,
 				"parent" : 0
 			},
 			{
@@ -516,7 +516,7 @@
 			{
 				"command" : 13,
 				"file" : 0,
-				"line" : 2088,
+				"line" : 2083,
 				"parent" : 0
 			},
 			{
@@ -524,6 +524,18 @@
 				"file" : 1,
 				"line" : 11,
 				"parent" : 79
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 2088,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 81
 			},
 			{
 				"command" : 14,
@@ -535,7 +547,7 @@
 				"command" : 12,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 81
+				"parent" : 83
 			},
 			{
 				"command" : 14,
@@ -547,7 +559,7 @@
 				"command" : 12,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 83
+				"parent" : 85
 			},
 			{
 				"command" : 14,
@@ -559,7 +571,7 @@
 				"command" : 12,
 				"file" : 1,
 				"line" : 23,
-				"parent" : 85
+				"parent" : 87
 			},
 			{
 				"command" : 13,
@@ -571,7 +583,7 @@
 				"command" : 12,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 87
+				"parent" : 89
 			},
 			{
 				"command" : 13,
@@ -583,7 +595,7 @@
 				"command" : 12,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 89
+				"parent" : 91
 			},
 			{
 				"command" : 13,
@@ -595,7 +607,7 @@
 				"command" : 12,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 91
+				"parent" : 93
 			},
 			{
 				"command" : 13,
@@ -607,7 +619,7 @@
 				"command" : 12,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 93
+				"parent" : 95
 			},
 			{
 				"command" : 13,
@@ -619,7 +631,7 @@
 				"command" : 12,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 95
+				"parent" : 97
 			},
 			{
 				"command" : 13,
@@ -631,7 +643,7 @@
 				"command" : 12,
 				"file" : 1,
 				"line" : 11,
-				"parent" : 97
+				"parent" : 99
 			}
 		]
 	},
@@ -641,14 +653,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd"
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od  -MDd"
 				},
 				{
 					"backtrace" : 10,
 					"fragment" : "/W3"
 				},
 				{
-					"fragment" : "\"/YcD:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.h\" \"/FpD:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/./cmake_pch.c.pch\" \"/FID:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.h\""
+					"fragment" : "/YcD:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.h /FpD:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/./cmake_pch.c.pch /FID:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.h"
 				}
 			],
 			"defines" : 
@@ -689,24 +701,24 @@
 			[
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-config-debug/build_config"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-config-debug/build_config"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-revision"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-revision"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/include"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/include"
 				},
 				{
 					"backtrace" : 20,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src"
 				},
 				{
 					"backtrace" : 22,
 					"isSystem" : true,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/video/khronos"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/video/khronos"
 				}
 			],
 			"language" : "C",
@@ -722,7 +734,7 @@
 			[
 				{
 					"backtrace" : 23,
-					"header" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/SDL_internal.h"
+					"header" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/SDL_internal.h"
 				}
 			],
 			"sourceIndexes" : 
@@ -780,24 +792,24 @@
 			[
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-config-debug/build_config"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-config-debug/build_config"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-revision"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-revision"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/include"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/include"
 				},
 				{
 					"backtrace" : 20,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src"
 				},
 				{
 					"backtrace" : 22,
 					"isSystem" : true,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/video/khronos"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/video/khronos"
 				}
 			],
 			"language" : "ASM_MASM",
@@ -810,14 +822,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd"
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od  -MDd"
 				},
 				{
 					"backtrace" : 10,
 					"fragment" : "/W3"
 				},
 				{
-					"fragment" : "\"/YuD:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.h\" \"/FpD:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/./cmake_pch.c.pch\" \"/FID:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.h\""
+					"fragment" : "/YuD:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.h /FpD:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/./cmake_pch.c.pch /FID:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.h"
 				}
 			],
 			"defines" : 
@@ -858,24 +870,24 @@
 			[
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-config-debug/build_config"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-config-debug/build_config"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-revision"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-revision"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/include"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/include"
 				},
 				{
 					"backtrace" : 20,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src"
 				},
 				{
 					"backtrace" : 22,
 					"isSystem" : true,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/video/khronos"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/video/khronos"
 				}
 			],
 			"language" : "C",
@@ -891,7 +903,7 @@
 			[
 				{
 					"backtrace" : 23,
-					"header" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/SDL_internal.h"
+					"header" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/SDL_internal.h"
 				}
 			],
 			"sourceIndexes" : 
@@ -1099,7 +1111,7 @@
 				204,
 				205,
 				206,
-				208,
+				207,
 				209,
 				210,
 				211,
@@ -1112,14 +1124,15 @@
 				218,
 				219,
 				220,
-				221
+				221,
+				222
 			]
 		},
 		{
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd"
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od  -MDd"
 				},
 				{
 					"backtrace" : 10,
@@ -1164,24 +1177,24 @@
 			[
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-config-debug/build_config"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-config-debug/build_config"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-revision"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-revision"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/include"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/include"
 				},
 				{
 					"backtrace" : 20,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src"
 				},
 				{
 					"backtrace" : 22,
 					"isSystem" : true,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/video/khronos"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/video/khronos"
 				}
 			],
 			"language" : "C",
@@ -1197,7 +1210,7 @@
 			[
 				{
 					"backtrace" : 23,
-					"header" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/SDL_internal.h"
+					"header" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/SDL_internal.h"
 				}
 			],
 			"sourceIndexes" : 
@@ -1209,7 +1222,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd"
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od  -MDd"
 				},
 				{
 					"backtrace" : 10,
@@ -1219,7 +1232,7 @@
 					"fragment" : " /GL-"
 				},
 				{
-					"fragment" : "\"/YuD:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.h\" \"/FpD:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/./cmake_pch.c.pch\" \"/FID:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.h\""
+					"fragment" : "/YuD:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.h /FpD:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/./cmake_pch.c.pch /FID:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/SDL3-shared.dir/cmake_pch.h"
 				}
 			],
 			"defines" : 
@@ -1260,24 +1273,24 @@
 			[
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-config-debug/build_config"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-config-debug/build_config"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-revision"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-revision"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/include"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/include"
 				},
 				{
 					"backtrace" : 20,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src"
 				},
 				{
 					"backtrace" : 22,
 					"isSystem" : true,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/video/khronos"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/video/khronos"
 				}
 			],
 			"language" : "C",
@@ -1293,7 +1306,7 @@
 			[
 				{
 					"backtrace" : 23,
-					"header" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/SDL_internal.h"
+					"header" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/SDL_internal.h"
 				}
 			],
 			"sourceIndexes" : 
@@ -1346,30 +1359,30 @@
 			[
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-config-debug/build_config"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-config-debug/build_config"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-revision"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-revision"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/include"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/include"
 				},
 				{
 					"backtrace" : 20,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src"
 				},
 				{
 					"backtrace" : 22,
 					"isSystem" : true,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/video/khronos"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/src/video/khronos"
 				}
 			],
 			"language" : "RC",
 			"sourceIndexes" : 
 			[
-				207
+				208
 			]
 		}
 	],
@@ -1699,7 +1712,8 @@
 				218,
 				219,
 				220,
-				221
+				221,
+				222
 			]
 		},
 		{
@@ -1713,7 +1727,7 @@
 			"name" : "Precompile Header File",
 			"sourceIndexes" : 
 			[
-				222
+				223
 			]
 		}
 	],
@@ -2946,107 +2960,113 @@
 		{
 			"backtrace" : 76,
 			"compileGroupIndex" : 2,
-			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/haptic/windows/SDL_dinputhaptic.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 76,
-			"compileGroupIndex" : 2,
-			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/haptic/windows/SDL_windowshaptic.c",
+			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/joystick/gdk/SDL_gameinputjoystick.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 78,
 			"compileGroupIndex" : 2,
-			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/camera/mediafoundation/SDL_camera_mediafoundation.c",
+			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/haptic/windows/SDL_dinputhaptic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 78,
+			"compileGroupIndex" : 2,
+			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/haptic/windows/SDL_windowshaptic.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 80,
+			"compileGroupIndex" : 2,
+			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/camera/mediafoundation/SDL_camera_mediafoundation.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 82,
 			"compileGroupIndex" : 5,
 			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/core/windows/version.rc",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 82,
+			"backtrace" : 84,
 			"compileGroupIndex" : 2,
 			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/dialog/SDL_dialog_utils.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 84,
+			"backtrace" : 86,
 			"compileGroupIndex" : 2,
 			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/dialog/windows/SDL_windowsdialog.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 86,
+			"backtrace" : 88,
 			"compileGroupIndex" : 2,
 			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/process/SDL_process.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 88,
+			"backtrace" : 90,
 			"compileGroupIndex" : 2,
 			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/process/windows/SDL_windowsprocess.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 90,
+			"backtrace" : 92,
 			"compileGroupIndex" : 2,
 			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/video/offscreen/SDL_offscreenevents.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 90,
+			"backtrace" : 92,
 			"compileGroupIndex" : 2,
 			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/video/offscreen/SDL_offscreenframebuffer.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 90,
+			"backtrace" : 92,
 			"compileGroupIndex" : 2,
 			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/video/offscreen/SDL_offscreenopengles.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 90,
+			"backtrace" : 92,
 			"compileGroupIndex" : 2,
 			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/video/offscreen/SDL_offscreenvideo.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 90,
+			"backtrace" : 92,
 			"compileGroupIndex" : 2,
 			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/video/offscreen/SDL_offscreenvulkan.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 90,
+			"backtrace" : 92,
 			"compileGroupIndex" : 2,
 			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/video/offscreen/SDL_offscreenwindow.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 92,
+			"backtrace" : 94,
 			"compileGroupIndex" : 2,
 			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/gpu/d3d11/SDL_gpu_d3d11.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 94,
+			"backtrace" : 96,
 			"compileGroupIndex" : 2,
 			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/gpu/d3d12/SDL_gpu_d3d12.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 96,
+			"backtrace" : 98,
 			"compileGroupIndex" : 2,
 			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/gpu/vulkan/SDL_gpu_vulkan.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 98,
+			"backtrace" : 100,
 			"compileGroupIndex" : 2,
 			"path" : "out/build/x64-Debug/_deps/sdl3-src/src/main/generic/SDL_sysmain_callbacks.c",
 			"sourceGroupIndex" : 0

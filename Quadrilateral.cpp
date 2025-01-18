@@ -108,7 +108,7 @@ namespace NIntroToVulkan
         auto LColor{std::make_shared<FragMultiplyUniform>(1.0F , 0.5F + AColor , 1.0F , 1.0F)};
         FRenderer->PushFragmentUniformData(0 , LColor.get() , sizeof(FragMultiplyUniform));
         */
-        auto LTransform{std::make_shared<Mat4>(Mat4::CreatePerspectiveFieldOfView(90.0F , 16.0F / 9.0F , 0.0625F , 1000.0F) * Mat4::CreateRotationZ(0.0F) * Mat4::CreateTranslation(0.0F , 0.0F , 0.0F))};
+        auto LTransform{std::make_shared<Mat4>(Mat4::CreatePerspectiveFieldOfView(90.0F , 16.0F / 9.0F , 0.0625F , 1000.0F) * Mat4::CreateRotationZ(ARotation))};
         FRenderer->PushVertexUniformData(0 , LTransform.get() , sizeof(Mat4));
         auto LColor{std::make_shared<FragMultiplyUniform>(1.0F , 1.0F , 1.0F , 1.0F)};
         FRenderer->PushFragmentUniformData(0 , LColor.get() , sizeof(FragMultiplyUniform));

@@ -74,7 +74,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd"
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od  -MDd"
 				},
 				{
 					"backtrace" : 3,
@@ -85,11 +85,11 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-revision"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-revision"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/include"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/include"
 				}
 			],
 			"language" : "C",

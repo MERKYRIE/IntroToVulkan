@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/VisualStudio/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/lib.exe"
+			"value" : "D:/Programs/Studio/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/lib.exe"
 		},
 		{
 			"name" : "CMAKE_ASM_MASM_COMPILER",
@@ -47,7 +47,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/VisualStudio/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/ml64.exe"
+			"value" : "D:/Programs/Studio/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/ml64.exe"
 		},
 		{
 			"name" : "CMAKE_ASM_MASM_COMPILER_WORKS",
@@ -163,7 +163,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug"
+			"value" : "d:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -187,7 +187,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "28"
+			"value" : "29"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -199,7 +199,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "5"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -211,7 +211,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe"
+			"value" : "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -223,7 +223,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cpack.exe"
+			"value" : "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -235,7 +235,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe"
+			"value" : "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -247,11 +247,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "C:/VisualStudio/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe"
+			"type" : "STRING",
+			"value" : "D:/Programs/Studio/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -359,11 +359,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "C:/VisualStudio/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe"
+			"type" : "STRING",
+			"value" : "D:/Programs/Studio/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -607,7 +607,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -667,7 +667,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/MRK/Visual Studio/Projects/IntroToVulkan"
+			"value" : "D:/Programs/_Studio/Projects/IntroToVulkan"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -871,7 +871,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/install/x64-Debug"
+			"value" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/install/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
@@ -951,7 +951,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/VisualStudio/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/link.exe"
+			"value" : "D:/Programs/Studio/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/link.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -963,7 +963,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe"
+			"value" : "d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1059,7 +1059,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/mt.exe"
+			"value" : "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/mt.exe"
 		},
 		{
 			"name" : "CMAKE_NM",
@@ -1234,6 +1234,10 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "noop for ranlib"
 				}
@@ -1255,7 +1259,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/rc.exe"
+			"value" : "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/rc.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1375,7 +1379,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28"
+			"value" : "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1743,7 +1747,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps"
+			"value" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1819,7 +1823,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/Git/cmd/git.exe"
+			"value" : "GIT_EXECUTABLE-NOTFOUND"
 		},
 		{
 			"name" : "HAVE_ALLOCA_H",
@@ -1939,7 +1943,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : ""
+			"value" : "1"
 		},
 		{
 			"name" : "HAVE_LIBM",
@@ -3735,7 +3739,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build"
+			"value" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build"
 		},
 		{
 			"name" : "SDL3_DIR",
@@ -3771,7 +3775,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src"
+			"value" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src"
 		},
 		{
 			"name" : "SDL_ALSA",
@@ -3960,22 +3964,6 @@
 			],
 			"type" : "BOOL",
 			"value" : "OFF"
-		},
-		{
-			"name" : "SDL_CMAKE_C_COMPILER_LINKER_ID",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Linker identification"
-				}
-			],
-			"type" : "STRING",
-			"value" : "MSVC"
 		},
 		{
 			"name" : "SDL_CPU_ARM32",
@@ -4911,7 +4899,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/install/x64-Debug"
+			"value" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/install/x64-Debug"
 		},
 		{
 			"name" : "graphics-SDL3_BINARY_DIR",
@@ -4923,7 +4911,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug"
+			"value" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug"
 		},
 		{
 			"name" : "graphics-SDL3_IS_TOP_LEVEL",
@@ -4947,7 +4935,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/MRK/Visual Studio/Projects/IntroToVulkan"
+			"value" : "D:/Programs/_Studio/Projects/IntroToVulkan"
 		}
 	],
 	"kind" : "cache",

@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/preview-3.1.6.zip" ABSOLUTE)
-get_filename_component(directory "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src" ABSOLUTE)
+get_filename_component(filename "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/preview-3.1.6.zip" ABSOLUTE)
+get_filename_component(directory "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

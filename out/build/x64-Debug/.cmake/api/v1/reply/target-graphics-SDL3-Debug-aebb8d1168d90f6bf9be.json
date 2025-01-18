@@ -52,11 +52,11 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-revision"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-build/include-revision"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "D:/MRK/Visual Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/include"
+					"path" : "D:/Programs/_Studio/Projects/IntroToVulkan/out/build/x64-Debug/_deps/sdl3-src/include"
 				}
 			],
 			"language" : "CXX",
